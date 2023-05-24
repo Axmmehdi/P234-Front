@@ -1,0 +1,153 @@
+
+body{
+    background-color: rgb(235, 231, 231);
+}
+
+.container{
+  padding: 0 40px;
+
+}
+
+
+
+.heading{
+    background-color: rgb(235, 231, 231);;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8rem;
+   
+    width: 100%;
+
+    
+}
+
+.heading .logo a{
+    color:black;
+    font-size: 19.2px;
+    font-weight: 700;
+    margin: 0 16px 0 0;
+    padding: 5px 0;
+}
+
+.navbar a{
+    color: #0000008c;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px;
+   
+}
+.navbar>.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff !important;
+    background-color: #00ba94;
+    font-size: .875rem;
+    border-radius: 0.35rem;
+    padding: 14px 18px !important;
+    margin: 0 0 0 24px;
+}
+
+
+
+#first-part{
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+ 
+}
+
+.page{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.title{
+    width: 83.33333333%;    
+}
+.title h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.2;
+}
+.title p{
+    color: #ffffff80;
+    font-size: 18.4px;
+    margin: 0 0 40px;
+    text-align: center;
+}
+
+.title a{
+    font-size: 14px;
+    color: #fff;
+}
+
+.title>.btn{
+    display: inline-flex;
+
+    padding: 14px 18px;
+    margin: 0 8px 0 0;
+    background-color: #00ba94;
+    border-radius: .35rem;
+}
+
+.title .link{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 18px;
+    font-size:  14px;
+}
+
+#second-part{
+    padding: 96px 0;
+  
+}
+
+#second-part h2{
+    margin:  0 0 24px;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 27px;
+    color: #363d47;
+
+}
+
+
+.all-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box{
+    width: 23%;
+    background-color: #fff;
+    border-radius: 5px;
+    
+    margin: 0 0 40px;
+
+}
+
+.box img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.content{
+    padding: 16px;
+}
+.text-dw a{
+    color: #0061d2;
+    font-size: 16px;
+}
