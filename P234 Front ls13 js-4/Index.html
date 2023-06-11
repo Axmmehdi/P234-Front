@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div>
+      <label for="credit-amount">Kredit Məbləği:</label>
+      <input type="number" class="rate" id="credit-amount" min="0">
+    </div>
+    
+    <div>
+      <label for="interest-rate">Faiz dərəcəsi (%):</label>
+      <input type="number" class="rate" id="interest-rate" min="0" >
+    </div>
+    
+    <div>
+      <label for="credit-period ">Kredit müddəti (ay):</label>
+      <input type="number" class="rate mb-3" id="credit-period" min="0" >
+    </div>
+    
+    <button onclick="calculatePayment()">Kredit Hesabla</button>
+    
+    <div id="payment-result"></div>
+  </div>
+  
+ 
+
+
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
