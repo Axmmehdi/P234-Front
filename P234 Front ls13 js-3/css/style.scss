@@ -1,0 +1,47 @@
+body{
+   overflow-x: hidden;
+}
+
+
+#sumcalc{
+   font-size: 15px;
+   border-radius: 4px;
+   padding: 5px 10px;
+   
+  input{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+ .sumc{
+    padding: 0 14px;
+    border-radius: 6px;
+ }
+
+}
+
+#result{
+    margin-left: 100px;
+}
+
+
+
+#movingbox{
+    width: 200px;
+     height: 200px;
+    background-color: #87CEFA
+    
+}
+.btn{
+   padding: 5px 7px;
+   margin: 0 15px;
+   .upper{
+     border-radius: 4px;
+    margin: 0 15px;
+   }
+   .lower{
+    border-radius: 4px;
+    margin: 0 15px;
+   }
+}
+
